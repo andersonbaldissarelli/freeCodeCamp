@@ -93,6 +93,7 @@ ip地址有一些細節需要觀察。
 - 固定或靜態IP - 分配給主機的IP號碼，不會每次都更改
 - 動態IP - 動態分配的IP號，可以隨每個分配進行更改
 
+
 ## 參考文獻
 
 http://grsecurity.com.br/apostilas/TCP/training-networking-tcpip.pdf
