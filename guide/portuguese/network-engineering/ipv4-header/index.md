@@ -37,7 +37,7 @@ Bit 2: (MF) 0 = Last Fragment, 1 = More Fragments
 
 #### Fragment Offset
 - 13 bits
-- Na montagem da mensagem, indica a posição dos dados do datagrama, por exemplo, analise os pacotes 1 a 5 do trace ipfragment.cap. Ao passar por um roteador, um pacote único foi fragmentado em 5 datagramas, que chegaram na ordem 1, 2, 3, 4 e 5 no destinatário. Esta ordem, porém, não é a ordem correta dos dados. Com base na informação do campo Fragment Offset, a ordem correta foi encontrada, como sendo 4, 5, 2, 3, 1, conforme indicado abaixo:
+- Na montagem da mensagem, indica a posição dos dados do datagrama, por exemplo, analise os pacotes 1 a 5 do trace ipfragment.cap. Ao passar por um roteador, um pacote único foi fragmentado em 5 datagramas, que chegaram na ordem 1, 2, 3, 4 e 5 no destinatário. Esta ordem, porém, não é a ordem correta dos dados. Com base na informação do campo Fragment Offset, a ordem correta foi encontrada, como sendo 4, 5, 2, 3, 1.
 
 #### Time-to-live
 - 8 bits
