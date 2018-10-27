@@ -1,4 +1,4 @@
-## Cabeçalho IPv4
+## Cabeçalho IPv6
 
 O IPv6 introduz um novo formato ao cabeçalho, de modo a torna-lo mais simples.
 
@@ -43,6 +43,6 @@ Todos os campos deste novo cabeçalho possuem um tamanho fixo totalizando 64 byt
 
 http://ipv6.br/post/cabecalho/
 
-
+https://tools.ietf.org/html/rfc2460
 
 
