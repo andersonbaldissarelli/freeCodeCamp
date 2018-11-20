@@ -1,7 +1,3 @@
----
-title: TCP Header
-localeTitle: Cabeçalho TCP
----
 ## Formato de cabeçalho TCP
 
 Este é um esboço. [Ajude nossa comunidade a expandi-lo](https://github.com/freecodecamp/guides/tree/master/src/pages/network-engineering/tcp-header/index.md) .
