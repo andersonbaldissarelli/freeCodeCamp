@@ -15,7 +15,7 @@ Como você pode imaginar, esse algoritmo é chamado de Seleção de Seleção po
 
 Mas, como você escreveria o código para encontrar o índice do segundo menor valor em uma matriz?
 
-*   Uma maneira fácil é notar que o menor valor já foi trocado para o índice 0, então o problema se reduz a encontrar o menor elemento na matriz, começando no índice 1.
+* Uma maneira fácil é notar que o menor valor já foi trocado para o índice 0, então o problema se reduz a encontrar o menor elemento na matriz, começando no índice 1.
 
 ### Implementação em C / C ++
 
@@ -40,19 +40,44 @@ for(int i = 0; i < n; i++)
 
 ### Implementação em Javascript
 
-\`\` \`Javascript seleção de função _sort (A) { var len =_ comprimento do _array_ (A); para (var i = 0; i <len - 1; i = i + 1) { var j _min = i; para (var j = i + 1; j <len; j = j + 1) { if (A \[j\] <A \[j_ min\]) { j _min = j; } outro {} } if (j_ min! == i) { trocar (A, i, j\_min); } outro {} } }
+``` Javascript seleção de função 
+_sort(A){ 
+ var len =_ comprimento do _array_ (A); 
+  para (var i = 0; i <len - 1; i = i + 1){ 
+    var j _min = i; 
+  para(var j = i + 1; j <len; j = j + 1){ 
+   if (A \[j\] <A \[j_ min\]){ 
+    j _min = j;
+   } 
+    outro {} 
+  }
+  if(j_ min! == i){ 
+   trocar(A, i, j\_min);
+  } 
+  outro{} 
+ } 
+}
 
-troca de funções (A, x, y) { var temp = A \[x\]; A \[x\] = A \[y\]; A \[y\] = temp; }
-```
-### Implementation in Python 
-```
+troca de funções (A, x, y) { 
+ var temp = A \[x\]; 
+ A \[x\] = A \[y\]; 
+ A \[y\] = temp; 
+}
 
-python _sort de_ seleção de def _(arr): se não for: return arr para eu na faixa (len (arr)): min_ i = i para j no intervalo (i + 1, len (arr)): se arr \[j\] <arr \[min _i\]: min_ i = j arr \[i\], arr \[min _i\] = arr \[min_ i\], arr \[i\] \`\` \`
+```
+### Implementação em python
+
+```python _sort de_ seleção
+
+def _(arr): se não for: return arr para eu na faixa (len (arr)): 
+min_ i = i para j no intervalo (i + 1, len (arr)): se arr \[j\] <arr \[min _i\]: min_ i = j arr \[i\], 
+arr \[min _i\] = arr \[min_ i\], arr \[i\] 
+```
 
 ### Propriedades
 
 *   Complexidade do espaço: **O (n)**
-*   Complexidade do Tempo: **O (n 2 )**
+*   Complexidade do Tempo: **O (n^2)**
 *   Ordenando no Lugar: **Sim**
 *   Estável: **não**
 
