@@ -1,4 +1,4 @@
-### Code example
+### Code example:
 
 ```
 import 'package:flutter/material.dart';
